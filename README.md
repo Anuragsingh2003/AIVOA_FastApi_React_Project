@@ -50,6 +50,30 @@ This is a FastAPI backend for managing companies. It provides RESTful endpoints 
 - `PUT /companies/{company_id}` — Update a company
 - `DELETE /companies/{company_id}` — Delete a company
 
+
+
+
+
+## Overview
+This is a full-stack web application for managing company records, built with a FastAPI backend, React frontend, and MySQL database. It allows users to create, read, update, and delete (CRUD) company entries with fields: `id`, `name`, and `location`. The backend uses asynchronous MySQL connections with a connection pool, and the frontend is styled with Tailwind CSS and built with Vite for fast development.
+
+### Features
+- Add new companies with name and location.
+- View a list of all companies.
+- Edit existing company details.
+- Delete companies.
+- Responsive UI with Tailwind CSS.
+- RESTful API with FastAPI and automatic OpenAPI documentation.
+- Robust database connection handling with aiomysql.
+
+### Tech Stack
+- **Backend**: Python 3.8, FastAPI, aiomysql, Pydantic
+- **Frontend**: React, Vite, Tailwind CSS, JavaScript
+- **Database**: MySQL (patient_db, company table)
+- **Tools**: Node.js 18.8.0, npm, Git
+
+## Project Structure
+
 ## License
 
 MIT
